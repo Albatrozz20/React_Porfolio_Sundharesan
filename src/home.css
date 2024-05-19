@@ -1,0 +1,69 @@
+
+#HOME
+{
+    font-family: "Montserrat", sans-serif;
+    background-color: #f2f2f2;
+    color: #3F4044;
+    position: relative;
+    animation-name: intro;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.details
+{
+    height: 60vh;
+}
+.l1
+{
+    gap: 1rem;
+}
+.l2
+{
+    flex-wrap: nowrap;
+}
+h1
+{
+    font-weight: 400;
+}
+.name
+{
+    color: #812CDC;
+    font-weight: 600;
+}
+.cv
+{
+    padding: 0.5rem 1rem;
+    border: #812CDC solid 0.1rem;
+    color: #3F4044;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+.cv:hover
+{
+    background-color: #812CDC;
+    color: #f2f2f2;
+    font-weight: 300;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .pos
+    {
+        font-size: 1.5rem;
+    }
+    
+}
+@media screen and (max-width: 470px) {
+
+    .pos
+    {
+        font-size: 1rem;
+    }
+    
+}
+
+@keyframes intro {
+    100%  {top:0px; filter: opacity(1);}
+    0%  {top:20px; filter: opacity(0);}
+}

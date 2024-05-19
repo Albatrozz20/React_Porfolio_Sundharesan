@@ -1,0 +1,55 @@
+#PROJECT
+{
+    color: #3F4044;
+    font-family: "Montserrat", sans-serif;
+    background-color: #DBD9DA;
+    padding: 10rem 1rem 5rem 1rem;
+    position: relative;
+    animation-name: intro;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.proj_title
+{
+    font-weight: 500;
+    font-size: x-large;
+}
+.works
+{
+    font-weight: 600;
+}
+.medlink
+{
+    background: url(med.jpg);
+    background-size: cover;
+}
+
+.projects
+{
+    gap: 1rem;
+}
+.iot
+{
+    background: url(iot.jpg);
+    background-size: cover;
+}
+.solar
+{
+    background: url(solar.jpg);
+    background-size: cover;
+}
+.probtns
+{
+    gap: 1rem;
+}
+.probtns button
+{
+    border: none;
+    background-color: #3F4044;
+    color: #DBD9DA;
+}
+.probtns button:hover
+{
+    background-color: #8f47dd;
+    font-weight: 500;
+}

@@ -1,0 +1,157 @@
+#ABOUT
+{
+    font-family: "Montserrat", sans-serif;
+    background-color: #F2F2F2;
+    position: relative;
+    animation-name: intro;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.line
+{
+    height: 35rem;
+    width: 2px;
+    margin: auto;
+    background-color: #3F4044;
+}
+.title
+{
+    color: #3F4044;
+}
+.skills h1
+{
+    font-weight: 600;
+}
+
+.skdetail
+{
+   display: grid;
+}
+.sk1
+{
+    grid-area: one;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column; 
+    background-color: #812CDC; 
+    color: #F2F2F2;
+    align-items: center;
+    justify-content: center;
+}
+.sk2
+{ 
+    grid-area: two;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column; 
+    background-color: #8f47dd; 
+    color: #F2F2F2;
+    align-items: center;
+    justify-content: center; 
+}
+.sk3
+{ 
+    grid-area: three;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column; 
+    background-color: #9a62d5; 
+    color: #F2F2F2;
+    align-items: center;
+    justify-content: center;  
+}
+.skdetail {
+    display: grid;
+    grid-template-areas:
+    'one one two two'
+    'one one three three';
+}
+.lk
+{
+    gap: 1rem;
+}
+.lang
+{
+    padding: 1rem;
+    background-color: #3F4044;
+    color: #F2F2F2;
+}
+.lang h1
+{
+    font-size: medium;
+    font-weight: 300;
+}
+.lang h6
+{
+    font-weight: 300;
+}
+.qualify
+{
+    background:none;
+    color: #3F4044;
+    border: #3F4044 solid 0.1rem;
+}
+.qualify h1
+{
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1400px)
+{
+    .about
+    {
+        flex-direction: column;
+    }
+    .line
+    {
+        height: 2px;
+        width: 100%;
+        margin: auto;
+        background-color: #3F4044;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    h1
+    {
+        font-size: x-large;
+    }
+    h6
+    {
+        font-size: larger;
+    }
+}
+@media screen and (max-width: 450px) {
+
+    h1
+    {
+        font-size: larger;
+    }
+    h6
+    {
+        font-size: medium;
+    }
+}
+@media screen and (max-width: 400px) {
+
+    h1
+    {
+        font-size:large;
+    }
+    h6
+    {
+        font-size:small;
+    }
+}
+@media screen and (max-width: 350px) {
+
+    h1
+    {
+        font-size:small;
+    }
+    h6
+    {
+        font-size:x-small;
+    }
+}

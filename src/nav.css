@@ -1,0 +1,76 @@
+/* .navbar-brand
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+nav
+{
+    background-color: #DBD9DA;
+}
+.inner_nav
+{
+    padding: 0.3rem 2rem;
+}
+.logo
+{
+    width: 2.5rem;
+    filter: drop-shadow(5px 5px 0.5px #3F4044);
+}
+.navbar-toggler
+{
+    border: none;
+}
+.navlinks
+{
+    display: flex;
+    gap: 1rem;
+}
+.navlinks a
+{
+    font-family: "Montserrat", sans-serif;
+    color: #3F4044;
+    transition: 0.7s;
+    padding: 0.5rem;
+    font-weight: 450;
+}
+.navlinks a:hover
+{
+    color: #DBD9DA;
+    background-color: #3F4044;
+    transition: 0.7s;
+}
+.inner_link
+{
+    font-family: "Montserrat", sans-serif;
+    color: #3F4044;
+    transition: 0.5s;
+    padding: 0.5rem;
+    font-weight: 450;
+}
+.inner_link:hover
+{
+    color: #DBD9DA;
+    background: linear-gradient(90deg, #3F4044, #DBD9DA);
+}
+#offcanvasNavbarLabel
+{
+    font-family: "Montserrat", sans-serif;
+    color: #3F4044;
+    font-weight: 600;
+}
+.offcanvas
+{
+    background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 768px) {
+
+    .navlinks
+    {
+        display: none;
+    }
+    
+}
